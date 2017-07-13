@@ -14,9 +14,9 @@
 		51C9C06C1DD8ED080016F27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C9C06A1DD8ED080016F27C /* LaunchScreen.storyboard */; };
 		51C9C0771DD8ED080016F27C /* SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9C0761DD8ED080016F27C /* SoundsTests.swift */; };
 		51C9C0821DD8ED080016F27C /* SoundsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C9C0811DD8ED080016F27C /* SoundsUITests.swift */; };
-		51C9C0901DD8F2D70016F27C /* bruh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51C9C08F1DD8F2D70016F27C /* bruh.mp3 */; };
-		51C9C0921DD8F3BF0016F27C /* really_nigga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51C9C0911DD8F3BF0016F27C /* really_nigga.mp3 */; };
 		51C9C0941DD8F5840016F27C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C9C0931DD8F5840016F27C /* AVFoundation.framework */; };
+		723A14B51F17C43C00301EF4 /* bruh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 723A14B31F17C43C00301EF4 /* bruh.mp3 */; };
+		723A14B61F17C43C00301EF4 /* really_nigga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 723A14B41F17C43C00301EF4 /* really_nigga.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		51C9C07D1DD8ED080016F27C /* SoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C9C0811DD8ED080016F27C /* SoundsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsUITests.swift; sourceTree = "<group>"; };
 		51C9C0831DD8ED080016F27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51C9C08F1DD8F2D70016F27C /* bruh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bruh.mp3; path = ../../../AndroidStudioProjects/Sounds/app/src/main/res/raw/bruh.mp3; sourceTree = "<group>"; };
-		51C9C0911DD8F3BF0016F27C /* really_nigga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = really_nigga.mp3; path = ../../../AndroidStudioProjects/Sounds/app/src/main/res/raw/really_nigga.mp3; sourceTree = "<group>"; };
 		51C9C0931DD8F5840016F27C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		723A14B31F17C43C00301EF4 /* bruh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bruh.mp3; sourceTree = "<group>"; };
+		723A14B41F17C43C00301EF4 /* really_nigga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = really_nigga.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,9 @@
 			children = (
 				51C9C0611DD8ED080016F27C /* AppDelegate.swift */,
 				51C9C0631DD8ED080016F27C /* ViewController.swift */,
-				51C9C08F1DD8F2D70016F27C /* bruh.mp3 */,
-				51C9C0911DD8F3BF0016F27C /* really_nigga.mp3 */,
 				51C9C0651DD8ED080016F27C /* Main.storyboard */,
+				723A14B31F17C43C00301EF4 /* bruh.mp3 */,
+				723A14B41F17C43C00301EF4 /* really_nigga.mp3 */,
 				51C9C0681DD8ED080016F27C /* Assets.xcassets */,
 				51C9C06A1DD8ED080016F27C /* LaunchScreen.storyboard */,
 				51C9C06D1DD8ED080016F27C /* Info.plist */,
@@ -203,14 +203,17 @@
 				TargetAttributes = {
 					51C9C05D1DD8ED080016F27C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = UBTLYEF3ZW;
+						DevelopmentTeam = 6NC3X5VK8Z;
+						LastSwiftMigration = 0830;
 					};
 					51C9C0711DD8ED080016F27C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 51C9C05D1DD8ED080016F27C;
 					};
 					51C9C07C1DD8ED080016F27C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 51C9C05D1DD8ED080016F27C;
 					};
 				};
@@ -241,10 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C9C06C1DD8ED080016F27C /* LaunchScreen.storyboard in Resources */,
-				51C9C0921DD8F3BF0016F27C /* really_nigga.mp3 in Resources */,
+				723A14B61F17C43C00301EF4 /* really_nigga.mp3 in Resources */,
 				51C9C0691DD8ED080016F27C /* Assets.xcassets in Resources */,
 				51C9C0671DD8ED080016F27C /* Main.storyboard in Resources */,
-				51C9C0901DD8F2D70016F27C /* bruh.mp3 in Resources */,
+				723A14B51F17C43C00301EF4 /* bruh.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,11 +419,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6NC3X5VK8Z;
 				INFOPLIST_FILE = Sounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Sounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -430,11 +435,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6NC3X5VK8Z;
 				INFOPLIST_FILE = Sounds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Sounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -446,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SoundsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sounds.app/Sounds";
 			};
 			name = Debug;
@@ -458,6 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SoundsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sounds.app/Sounds";
 			};
 			name = Release;
@@ -469,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SoundsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Sounds;
 			};
 			name = Debug;
@@ -480,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SoundsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Sounds;
 			};
 			name = Release;
@@ -503,6 +514,7 @@
 				51C9C0881DD8ED080016F27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C9C0891DD8ED080016F27C /* Build configuration list for PBXNativeTarget "SoundsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +523,7 @@
 				51C9C08B1DD8ED080016F27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C9C08C1DD8ED080016F27C /* Build configuration list for PBXNativeTarget "SoundsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				51C9C08E1DD8ED080016F27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

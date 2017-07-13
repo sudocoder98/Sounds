@@ -13,8 +13,8 @@ class ViewController: UIViewController {
 
     var AudioPlayerrn = AVAudioPlayer();
     var AudioPlayerb = AVAudioPlayer();
-    var AudioPathBruh = NSURL(fileURLWithPath:NSBundle.mainBundle().pathForResource("bruh",ofType:"mp3")!)
-    var AudioPathReallyNigga = NSURL(fileURLWithPath:NSBundle.mainBundle().pathForResource("really_nigga", ofType: "mp3")! )
+    var AudioPathBruh = URL(fileURLWithPath:Bundle.main.path(forResource: "bruh",ofType:"mp3")!)
+    var AudioPathReallyNigga = URL(fileURLWithPath:Bundle.main.path(forResource: "really_nigga", ofType: "mp3")! )
     
     /*
     override func viewDidLoad() {
@@ -29,10 +29,10 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func onBruhButtonClicked(sender: UIButton) {
+    @IBAction func onBruhButtonClicked(_ sender: UIButton) {
         print("Bruh touched")
         do{
-        AudioPlayerb = try AVAudioPlayer(contentsOfURL: AudioPathBruh)
+        AudioPlayerb = try AVAudioPlayer(contentsOf: AudioPathBruh)
         }
         catch{
             print("Audio not found")
@@ -40,10 +40,10 @@ class ViewController: UIViewController {
         AudioPlayerb.play()
     }
 
-    @IBAction func onReallyNiggaClicked(sender: UIButton) {
+    @IBAction func onReallyNiggaClicked(_ sender: UIButton) {
         print("Really nigga touched")
         do{
-            AudioPlayerrn = try AVAudioPlayer(contentsOfURL: AudioPathReallyNigga)
+            AudioPlayerrn = try AVAudioPlayer(contentsOf: AudioPathReallyNigga)
         }
         catch{
             print("Audio not found")
